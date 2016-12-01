@@ -412,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = jenkins_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.369Cloud.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = jenkins_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.369Cloud.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +498,7 @@
 				220A75A41DF07D37006052A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		220A75A51DF07D37006052A3 /* Build configuration list for PBXNativeTarget "jenkins_testTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +507,7 @@
 				220A75A71DF07D37006052A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		220A75A81DF07D37006052A3 /* Build configuration list for PBXNativeTarget "jenkins_testUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +516,7 @@
 				220A75AA1DF07D37006052A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
