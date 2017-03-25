@@ -207,6 +207,8 @@
 				TargetAttributes = {
 					220A75741DF07D37006052A3 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = F6P9HKB7ZB;
+						ProvisioningStyle = Manual;
 					};
 					220A758D1DF07D37006052A3 = {
 						CreatedOnToolsVersion = 7.1;
@@ -411,12 +413,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				DEVELOPMENT_TEAM = F6P9HKB7ZB;
 				INFOPLIST_FILE = jenkins_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.369Cloud.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e980dcb5-2b52-4e11-9a41-28d97de23805";
+				PROVISIONING_PROFILE_SPECIFIER = com.369Cloud.app;
 			};
 			name = Debug;
 		};
@@ -424,12 +430,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xinhua Ruide(Beijing) Network Technology Co.,Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xinhua Ruide(Beijing) Network Technology Co.,Ltd.";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				DEVELOPMENT_TEAM = F6P9HKB7ZB;
 				INFOPLIST_FILE = jenkins_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.369Cloud.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e980dcb5-2b52-4e11-9a41-28d97de23805";
+				PROVISIONING_PROFILE_SPECIFIER = com.369Cloud.app;
 			};
 			name = Release;
 		};
