@@ -421,7 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.369Cloud.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "4afb2a3a-bc91-4efb-a888-e12ffdc45385";
 				PROVISIONING_PROFILE_SPECIFIER = com.369Cloud.demo;
 			};
 			name = Debug;
@@ -439,7 +439,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.369Cloud.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "4afb2a3a-bc91-4efb-a888-e12ffdc45385";
 				PROVISIONING_PROFILE_SPECIFIER = com.369Cloud.demo;
 			};
 			name = Release;
