@@ -207,7 +207,7 @@
 				TargetAttributes = {
 					220A75741DF07D37006052A3 = {
 						CreatedOnToolsVersion = 7.1;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					220A758D1DF07D37006052A3 = {
 						CreatedOnToolsVersion = 7.1;
